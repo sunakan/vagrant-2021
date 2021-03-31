@@ -1,1 +1,8 @@
 = Vagrant
+
+
+== mount
+
+----
+$ sudo mount -t cifs -o "vers=3.0,user=${HOST_USER},password=${HOST_PASSWORD},rw,dir_mode=0777,file_mode=0777" //192.168.43.114/works/ ./works/
+----
